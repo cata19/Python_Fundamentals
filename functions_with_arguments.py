@@ -2,7 +2,11 @@ def greeting(name):
     print(f"Hello, {name}!")
 
 
-greeting("Ibrahim")
+name = 'Alice'
+
+
+class Test:
+    a = 55
 
 
 def user_guessing_game(secret_number, stop_chars):
@@ -13,10 +17,3 @@ def user_guessing_game(secret_number, stop_chars):
             print('Bingo! You guessed the number')
         else:
             print(f"The number is {user_input}. Try again...")
-
-
-user_guessing_game(str(20), "stop")
-
-user_guessing_game(str(25), "qwerty")
-
-
