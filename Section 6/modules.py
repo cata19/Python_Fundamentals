@@ -3,8 +3,8 @@
 # f.greeting('Ibrahim')
 # f.user_guessing_game('27', 'stop')
 
-from functions_with_arguments import name, greeting as g, user_guessing_game as game
-from functions_with_arguments import Test
+from my_modules.functions_with_arguments import name, greeting as g
+from my_modules.functions_with_arguments import Test
 
 g('Ibrahim')
 # game('20', 'stop')
